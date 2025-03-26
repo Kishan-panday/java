@@ -4,7 +4,6 @@ class a{
     a(int x,int y){
         b=x;
         c=y;
-    
     }
     void show(){
        System.out.println(b+" "+c);
