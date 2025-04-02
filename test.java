@@ -1,57 +1,27 @@
-
-
-
-
 class A
-
 {
 
-int x=10,y=20;
 
-A(int p,int q)
+int x,y;
 
-{
+private A(){x=10;y=20; System.out.println(x+""+y); }
 
-x=p;
-
-y=q;
-
-}
-
-}
-
-class B extends A
-{
-
-int z=30;
-
-B(int r)
-
-{
-    z=r;
-}
-
-
-
-void display()
-
-{
-
-System.out.println("The data values are:"+ x+y+z);
-
-}
+A(int a, int b) {x=a;x=b; System.out.println(x+""+y); }
 
 }
 
 class test{
 
+
+
+
+
 public static void main(String args[])
 
-{
+ {A b=new A (5,7);
 
-B b=new B(5);
-
-b.display();
 
 }
+
+
 }

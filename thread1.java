@@ -11,7 +11,6 @@ class A implements Runnable{
     }
 }
 
-
 public class thread1 {
     public static void main(String[] args) throws InterruptedException {
         Thread.sleep(500);
