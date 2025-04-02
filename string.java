@@ -12,7 +12,7 @@ public class string {
            r +=name.charAt(i);
         }
           System.out.println(r);
-        sc.close();
+        // sc.close();
        
     }
 }
