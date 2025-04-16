@@ -14,6 +14,7 @@ public class fileexp1 {
             System.out.println("File writable:"+r.canWrite());
             System.out.println("File readable:"+r.canRead());
             System.out.println("File size:"+r.length());
+            
         }
         
     }catch(IOException i){
