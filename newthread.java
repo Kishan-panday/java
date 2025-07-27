@@ -1,4 +1,4 @@
-class B extends Thread{
+class B implements Runnable{
     @Override
     public void run() {
         for(int i = 1;i<=10;i++){
@@ -21,9 +21,10 @@ class B extends Thread{
 
 public class newthread {
 
-public static void main(String[] args) {
+public static void main(String[] args)throws InterruptedException {
     B n = new B();
-    n.start();
+   Thread r = new Thread(n);
+    r.start();
 }
     
 }
