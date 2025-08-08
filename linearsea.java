@@ -9,7 +9,7 @@ public class linearsea {
     }
     public static void main(String[] args) {
         String name = "pandey";
-        char c = 'a';
+        char c = 'n';
         System.out.println(found(name, c, 2, 4));
     }
 }
